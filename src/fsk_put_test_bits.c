@@ -29,7 +29,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <alloca.h>
+// #include <alloca.h>
 #include <string.h>
 #include <getopt.h>
 #include "fsk.h"

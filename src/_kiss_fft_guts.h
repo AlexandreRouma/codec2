@@ -155,7 +155,7 @@ struct kiss_fft_state{
 // Temporary buffers are used in two case:
 // 1. FFT sizes that have "bad" factors. i.e. not 2,3 and 5
 // 2. "in-place" FFTs.  Notice the quotes, since kissfft does not really do an in-place transform.
-#include <alloca.h>
+// #include <alloca.h>
 #define  KISS_FFT_TMP_ALLOC(nbytes) alloca(nbytes)
 #define  KISS_FFT_TMP_FREE(ptr)
 #else
